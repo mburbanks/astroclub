@@ -1,8 +1,8 @@
 body { font-family: "Trebuchet MS", arial, helvetica, sans-serif; font-size: 14px; background-color: #fff;} /*was #eee*/
 
-#banner td { background: url( "AstroSocietyBanner1.png" ) no-repeat;}
-#banner1 { font-size: 32px; color: #000; padding-left: 10px;}
-#banner2 { font-size: 18px; color: #000; padding-left: 10px;}
+#banner td { background: url( "AstroSocietyBanner3.png" ) no-repeat;}
+#banner1 { font-size: 32px; color: #fff; padding-left: 10px;}
+#banner2 { font-size: 18px; color: #fff; padding-left: 10px;}
 
 a { color: #60f; text-decoration: none;}
 a:visited { color: #60f;}
