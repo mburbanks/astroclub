@@ -30,7 +30,7 @@ ul.nobulletlist{ list-style-type: none;}
 td.main_posts{ background-color: #fff; font-size: 18px; padding-left: 7px;}/*was font 14px*/
 tr.main_posts{ background-color: #fff; font-size: 18px;}/*was font 14px*/
 td.training_program{ border: solid; padding: 5px; border-width: 1px; border-color: #000; font-size: 18px; background-color: #fff;} /*was font 14px*/
-td.sliding_results{ border: solid; padding: 2px; border-width: 1px; border-color: #000; font-size: 18px; background-color: #fff;text-align: right;}/*was font 14px*/
+td.sliding_results{ border: solid; padding: 2px; border-width: 1px; border-color: #000; font-size: 18px; background-color: #fff;text-align: center;}/*was font 14px*/
 td.sliding_results_yellow{ border: solid; padding: 2px; border-width: 1px; border-color: #000; font-size: 14px; background-color: #fff;text-align: right; background-color: #ffff00;}/*was #eee*/
 td.catch_times{ border: solid; padding: 2px; border-width: 1px; border-color: #000; font-size: 18px; background-color: #fff;text-align: left;}/*was font 14px*/
 td.sliding_results_titles{ border: solid; padding: 2px; border-width: 1px; border-color: #000; font-size: 18px; background-color: #fff;text-align: left;}/*was font 14px*/
@@ -41,6 +41,7 @@ p.individual_post_footer{ font-style: italic; font-size: 13px; color: #556b2f; t
 div.top_tag{ text-align: right;}
 div.asterisked_footnote{ font-size: 10px;}
 div.bottom_line { text-align:center; background-color: #fff; font-size: 14px; font-style: italic;}/*was #eee*/
+div.loughhyne_data { color: #0000ff;}
 td.font_white { color: #fff;}
 div.BulletSynposis {font-size: 18px; /*text-align: justify;*/} /*was font 14px*/
 div.SimplyCentre { text-align:center;}
