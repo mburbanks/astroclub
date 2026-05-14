@@ -102,23 +102,19 @@ dark skies, stellar magnitude, moon, Luna, Mercury, Venus, Mars, Jupiter, Saturn
 				<a name="accuracy"></a><br /><br />
 									<b>A Note About Accuracy (May 2026)</b>
 									<br /><br />
-									A word about accuracy. The Baltimore Pier tide is already (as at May 2026) more accurate than the paid-for Tide App I have, measured as a lower average difference of
-									my model vs the recorded data, than the difference between the App and the recorded data (all adjusted for recorded atmospheric pressure and the fact the App only shows
-									predictions to the nearest 10cm). So the Baltimore Pier predictions are useful. They will get more accurate as more data is collected, allowing the model to include more
-									of the fundamental tidal constituents.
+									The Baltimore Pier tide is already (May 2026) more accurate than the paid-for Tide App I have. So the Baltimore Pier predictions are useful. They will get more accurate as more
+									data is collected, allowing the model to include more of the fundamental tidal constituents.
 									<br /><br />
-									Note, though, that the predictions assume standard atmospheric pressure, or 1013.25hPa. Mean Sea Level varies by nearly 1cm per hPa, so on a day with pressure of, say,
-									1000hPa, you need to adjust the model predictions up by 13.25cm.
+									Note, though, that standard atmospheric pressure (1013.25hPa) is assumed. Since Mean Sea Level varies by nearly 1cm per hPa, a day with pressure of, say,
+									1000hPa, means the Baltimore Pier prediction must be adjusted up by 13.25cm.
 									<br /><br />
 									The Lough Hyne predictions are still a work-in-progress. Notice that the predictions are presented in two forms: a list showing the next few days’ highs and
-									lows; and an annotated chart (on the “tide” page) showing a wavy graph of the tide level as it undulates up and down, annotated with the times and levels of the high and low
-									waters. You may notice that the annotations on the chart and the list show slightly different predicted times. The chart is the more accurate one. To get
-									slightly technical, this is because the LH model is a <i>simulation</i>, modelling the in- and out-flow of water at 15-minute intervals. With the chart, every 15-minute calculation
-									is kept (in order to chart it), and interpolation between the 15-minute gaps to estimate the more exact moment of high or low is relatively easy. With the <i>list</i>, everything is
-									done on the fly, and high or low estimation currently uses linear interpolation of only the current (change in) height and the previous one. With a slowly-changing tide height, this
-									method can go wrong. I’m working on it: the chart and the list should be the same.
+									lows; and an annotated chart (on the “tide” page) showing a wavy graph of the tide level as it undulates up and down, with the times/levels of the high and low
+									waters also shown. You may notice that the annotations on the chart and the list show slightly different predicted times, not more than a few minutes though. For now, the chart
+									is the more accurate. This is because the LH model is a numerical simulation, modelling the in- and out-flow of water at 15-minute intervals. The chart and the list are using
+									slightly different interpolation methods between the 15-minute points to estimate the more exact moment of high or low. I’m working on it: the chart and the list should be the same.
 									<br /><br />
-									Obviously, LH tide heights are dependent on the outer sea-tide level, relative to the sill level in the Rapids. Recall that the air pressure makes the outer sea level vary
+									Obviously, LH tide heights are dependent on the outer sea-tide level relative to the sill level in the Rapids. Recall that air pressure makes the outer sea level vary
 									by +1cm per -1hPa pressure. This is equivalent to the height of the sill at the Rapids moving up and down by the same amount. A day with lower pressure will make the outer
 									sea higher and the LH-tide higher.
 									<br /><br />
